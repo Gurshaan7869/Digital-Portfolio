@@ -15,7 +15,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
+              I fell in love with computers and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
               <br />I am fluent in classics like
@@ -28,9 +28,7 @@ function Home2() {
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
+                <b className="purple">Computer hardware.</b>
               </i>
               <br />
               <br />
@@ -60,7 +58,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/Gurshaan7869"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -71,7 +69,7 @@ function Home2() {
 
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/gurshaan-singh-gill-25b40b20b/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
