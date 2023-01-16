@@ -2,11 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -24,67 +21,46 @@ function Projects() {
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
-              isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="E-commerce Site"
+              description="An E-commerce site for businesses made with MERN stack. It has integration of payment services like Paypal. Products can be easily added by running a simple command and storing the information in JSON format."
+              ghLink="https://github.com/Gurshaan7869/E-Commerce"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
-              isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Dev-Connector"
+              description="A social platform for developers to make connections and post different things. With good security practices like hashing the password, this site is pretty safe for personal information."
+              ghLink="https://github.com/Gurshaan7869/Developer-Blog"
+              demoLink="https://drive.google.com/file/d/15gCZ7XgudcDaKzV2q4tsgXycoYNVOE_w/view?usp=sharing"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="WhatsApp Clone"
+              description="A whatsapp clone created using MERN stack and Firebase. Firebase is specifically used to get realtime communication between the users as mongodb takes some time to update the data."
+              ghLink="https://github.com/Gurshaan7869/WhatsApp-Clone"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              imgPath={bitsOfCode}
+              title="Multiconnect"
+              description="An automated python tool to connect computers on a network and assign some work to each computer. The computers first need to register to admin computer. Then the admin computer divides a heavy task into small fragments and assigns it to the computers on the network."
+              demoLink="https://docs.google.com/document/d/1SKBUgYQ0oq95W9_tbG2osAJfokAsP6z3/edit?usp=sharing&ouid=102206497906939470568&rtpof=true&sd=true"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              imgPath={editor}
+              title="Superwars"
+              description="A simple game with superheroes. Every superhero is assigned a random number called strength. The superheroes with most strength wins and next round starts. After all the rounds, the winner with most points win. "
+              ghLink="https://gurshaan7869.github.io/project-11-superwars-css/"
             />
           </Col>
         </Row>
