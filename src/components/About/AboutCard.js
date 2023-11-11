@@ -11,8 +11,7 @@ function AboutCard() {
             Hi Everyone, I am{" "}
             <span className="purple">Gurshaan Singh Gill </span>
             from <span className="purple"> Indore, India.</span>
-            <br />I am a 4th year student pursuing B.Tech in Computer Science
-            and Engineering at VIT Bhopal.
+            <br />I am a 1st year student pursuing Masters in Telecommunications and Information Security at University of Victoria.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
